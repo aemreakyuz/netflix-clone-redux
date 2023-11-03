@@ -1,15 +1,16 @@
 .login{
     position: relative;
-    height: 100vh;
+    height: 100%;
     background-image: url("https://wpassets.brainstation.io/app/uploads/2017/04/13100509/Netflix-Background.jpg");
     object-fit: contain;
     background-position: center center;
     background-repeat: no-repeat;
-   
+ 
+  
 }
 .login__gradient{
     width:100%;
-    z-index: 1;
+   
     height: 100vh;
     background: rgba(0,0,0,0.4);
     background-image: linear-gradient(
@@ -41,13 +42,18 @@
 
 .login__body{
     position: absolute;
-transform: translate(-50%,-50%);
-    top:40%;
-    left:50%;
+    top:25%;
+    left:0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
     z-index: 1;
     color: white;
     padding: 1.25rem;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
 }
 
@@ -86,5 +92,5 @@ transform: translate(-50%,-50%);
     font-weight: 400;
 }
 .login__input{
-    margin: 1.25rem;
+    margin: 1.25rem 1.25rem 0 1.25rem;
 }

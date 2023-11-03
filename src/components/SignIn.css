@@ -1,4 +1,55 @@
+.signIn{
+    width: 20rem;
+    padding: 4.375rem;
+    background-color: rgba(0,0,0,0.8);
+}
+
 .signIn__form{
     display: flex;
     flex-direction: column;
+    width: 100%;
+    gap: 1rem;
+   
+}
+
+.signIn__form input{
+    padding: 0.825rem;
+    outline-style: none;
+    height: 1.875rem;
+    border: none;
+    border-radius: 0.3rem;
+    font-size:1rem;
+}
+.signIn__form button{
+    outline-style: none;
+   padding: 1rem 1.25rem;
+    border: none;
+    border-radius: 0.3rem;
+    font-size:1rem;
+   background-color: #e50914;
+   cursor: pointer;
+    color: white;
+    font-size:1rem;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+}
+.signIn h4{
+    text-align: left;
+}
+.signIn h1{
+    text-align: left;
+}
+.signIn__gray{
+    color:gray
+}
+
+.signIn__link{
+    text-decoration: none;
+    color: white;
+}
+
+.signIn__link:hover{
+    cursor: pointer;
+    color: white;
+    text-decoration: underline;
 }
