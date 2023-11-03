@@ -1,5 +1,3 @@
-import React from "react";
-
 const API_KEY = "4369e07bc02b16760eb3c6c4d52f8fe1";
 
 const requests = {
